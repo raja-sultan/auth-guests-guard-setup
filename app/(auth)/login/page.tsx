@@ -1,9 +1,8 @@
 "use client";
-
 import SignIn from "@/sections/auth";
 import React from "react";
 
-const LoginPage = () => {
+const Login = () => {
   return (
     <>
       <SignIn />
@@ -11,4 +10,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Login;
